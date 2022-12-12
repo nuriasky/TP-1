@@ -9,35 +9,42 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulario de Registro</h1>
-        <label for="nombre">Nombre: </label>
-        <input type="text" id="nombre" />
-    <br />
-    <br />
-        <label for="apellido">Apellido: </label>
-        <input type="text" id="apellido" />  
-    <br />
-    <br />
-            Modalidad del Curso:
-        <input type="radio" id="ondemand" name="modo"/> 
-        <label for="ondemand">On-Demand </label>
-    
-        <input type="radio" id="en vivo" name="modo"/> 
-        <label for="en vivo">En Vivo </label>
-    <br />
-    <br />
-        <label for="email">Correo:</label>
-        <input type="email" id="email" />
-    <br />
-    <br />
-        <input type="checkbox" id="info"/>
-        <label for="info">Deseo recibir información sobre nuevos posteos en la plataforma de NUCBA.</label>
-    <br />
-    <br />
-        <input type="checkbox" id="info"/>
-        <label for="info">Declaro que leí los términos y condiciones y estoy listo para convertirme en Desarrollador Web Full Stack.</label>
-    <br />
-    <br />
-    <input type="submit" value="Enviar"/>
+    <section> 
+            <h1>Formulario de Registro</h1>
+            <div class="overflow-box my hidden">
+                <label class="hola" for="nombre">Nombre </label>
+                <br />
+                <input type="text" id="nombre" />
+            <br />
+            <br />
+                <label class="hola" for="apellido">Apellido </label>
+                <br>
+                <input type="text" id="apellido" />  
+            <br />
+            <br />
+                    <p class="hola"> Modalidad del Curso</p>
+                <input type="radio" id="ondemand" name="modo"/> 
+                <label class="modalidad" for="ondemand">On-Demand </label>
+
+                <input type="radio" id="en vivo" name="modo"/> 
+                <label class="modalidad" for="en vivo">En Vivo </label>
+            <br />
+            <br />
+                <label class="hola" for="email">Correo </label>
+                <br>
+                <input type="email" id="email" />
+            <br />
+            <br />
+                <input type="checkbox" id="info"/>
+                <label class="hola" for="info">Deseo recibir información sobre nuevos posteos en la plataforma de NUCBA.</label>
+            <br />
+            <br />
+                <input type="checkbox" id="info"/>
+                <label class="hola" for="info">Declaro que leí los términos y condiciones y estoy listo para convertirme en Desarrollador Web Full Stack.</label>
+            <br />
+            <br />
+            <input type="submit" value="Enviar"/>
+        </div>
+    </section>
 </body>
 </html>
