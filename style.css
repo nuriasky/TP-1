@@ -1,26 +1,38 @@
 * {
-
-    padding: 10rem, 10rem, 10rem, 10rem;
-    margin: 10rem, 10rem, 10rem, 10rem;;
+    padding: auto;
+    margin: auto;
 }
 
-h1 {
+#register-title {
     text-align: center;
     font-size: 50px;
     font-family: 'poppins';
+    margin: 40px auto 20px auto;
+}
+
+.form {
+    display: block;
+    margin-top: border-box;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .overflow-box {
     max-width: 100%;
-    border: 10px solid #922B94;
-    background-color: aliceblue;
-    border-radius: 0.5rem;
-
-    padding: 1rem;
+    background-color: rgb(255, 231, 253);
+    width: 45rem;
+    box-shadow:
+    0.3em 0.5em 1em rgba(41, 41, 41, 0.3);
 }
 
 .my {
-    margin: 1rem 20rem 3rem 20rem;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins light';
 }
 
 .hola {
@@ -30,7 +42,7 @@ h1 {
 
 .modalidad {
     font-family: 'poppins';
-    accent-color: #ff0000;
+    accent-color: #ff0
 }
 
 .modalidad:hover {
